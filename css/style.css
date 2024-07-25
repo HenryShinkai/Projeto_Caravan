@@ -1,0 +1,59 @@
+body{
+  padding-top: 75px; /*ESSE TRECHO FOI FEITO, POIS A NAV ESTÁ COM POSITION FIXED NO TOPO DA TELA, E QUALQUER CONTEÚDO QUE SEJA 
+                       ESCRITO, FICA ATRÁS DA NAV E NÃO DA PARA VER. O PADDING-TOP VEIO PARA DAR UM PADDING NA PARTE DE CIMA DA TELA, ASSIM APARECE O CONTEÚDO. 75PX PORQUE O TAMANHO DO MENU TEM 75PX.*/
+}
+
+.box-shadow{
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05),
+              0 4px 8px 0 rgba(0, 0, 0, .05);
+}
+
+#blockquote-image{
+  background: url(/img/bg-quote.jpg) center center;
+  background-size: cover;
+}
+
+@media (max-width: 768px){
+  #blockquote-image .display-4{
+    font-size: 2.5rem;
+  }
+
+  .fixed-top{
+    position: relative;
+  }
+
+  body{
+    padding-top: 0px;
+  }
+}
+
+.pergunta a{
+  text-decoration: none;
+}
+
+.pergunta{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.lista-plano li{
+  padding: 16px;
+}
+
+.lista-plano li + li{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+footer a{
+  text-decoration: none;
+  max-width: 140px;
+}
+
+.inscricao-label label {
+  margin-bottom: 0.5rem;
+  margin-top: 1.0rem;
+}
+
+.pika{
+  margin-top: -21rem;
+  margin-left: -1px;
+}
